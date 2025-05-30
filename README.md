@@ -1,7 +1,8 @@
 5-Bit CPU Design Using Logisim
 This project presents a custom-built CPU architecture designed in Logisim as part of an academic assignment. It demonstrates essential concepts in digital logic, processor design, and instruction execution.
 
-** a) Project Specifications**
+a) Project Specifications
+
       1) Word Size of CPU: 5 bits
       2) ALU Operations:
           • AND
@@ -15,7 +16,8 @@ This project presents a custom-built CPU architecture designed in Logisim as par
           • Immediate Mode
           • Branching Mode (JMP, JLE)
 
- **b) Implemented Components**
+b) Implemented Components
+
       1) ALU Circuit: Supports ADD, AND, ROL
       2) Register Set: Includes 1-bit, 5-bit registers, and 3-register system
       3) Program Counter: 4-bit PC with adder
@@ -24,6 +26,7 @@ This project presents a custom-built CPU architecture designed in Logisim as par
       6) Integrated CPU: Combines datapath, control path, and memory interface
 
  **c) Features**
+ 
       1) Custom-designed Instruction Set Architecture (ISA)
       2) Supports execution of sample machine code
       3) Covers core CPU phases: fetch, decode, execute
